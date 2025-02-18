@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+    background-color:cadetblue;
+    width: 100%;
+    position: fixed;
+    z-index: 998;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 13px 65px;
+}
+.logo{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    font-size: 1.6em;
+    font-weight: 700;
+}
+.serid {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    grap: 40px;
+    transition: 0.4s;
+
+}
+.name {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.serid .name{
+    padding: 10px;
+    padding-right: 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+.serid :hover{
+    color: brown;
+}
+section {
+    padding: 70px 70px; 
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(arkaplan.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 1.4em;
+    font-weight: 500;
+    letter-spacing:1.5px;
+}
+.main h2 span{
+    text-shadow: 0 10px 40px rgba(1 7 1 / 90%);
+    align-content: center;
+    justify-content: center ;
+    display: block;
+    margin-top: 18px;
+    color: rgb(24, 66, 106);
+    font-size: 2.2em;
+    font-weight: 800;
+    cursor: pointer;
+}
+.h4{
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    letter-spacing: 1.5px;
+}
+.a1 {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background-color: #5f9ea0;
+    width: 220px;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1.3px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 18px;
+    border-radius: 22px;
+    transition: 0.5s ease;
+}
+.a1:hover {
+    background-color: rgb(81, 149, 149);
+    transform: scale(1.1);
+}
+
+.simgeler a {
+    color: antiquewhite;
+    padding-right: 17px;
+}
+.simgeler a :hover {
+    transform: scale(1.1);
+    color:darkkhaki;
+}
+.kart {
+    background-color: beige;
+    gap: 30px;
+}
+.hiz {
+    color:rgb(81, 149, 149);
+    justify-content: center;
+    display: flex;
+    font-weight: 800;
+    font-size: 2.5em;
+    padding: 30px;
+}
+.icerik {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    margin: 20px;
+    padding: 35px;
+}
+.kare {
+    background-color: aliceblue;
+    width: 250px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 25%);
+    border-radius: 20px ;
+    padding: 16px 16px 16px 16px;
+    transition: 0.7s ease;
+    margin: 35px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.kare:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 5px 25px rgba(1 1 1 / 50%);
+}
+.bilgi {
+    padding: 6px;
+    text-align: center;
+    font-size: 20px;
+    color:dodgerblue;
+}
+.simge {
+    color:darkcyan;
+    font-size: 80px;
+    text-align: center;
+}
+.bilgi h3 {
+    color: darkcyan;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 6px;
+    padding: 6px;
+}
+.bilgi p {
+    color: rgb(44, 41, 41);
+    font-weight: 700;
+    font-size: 1em;
+}
+.tasarim {
+    justify-content: space-between;
+    background-color:lightsteelblue;
+    text-align: center;
+    align-items: center;
+
+}
+.iletisim {
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: darkcyan;
+    justify-content: center;
+}
+.simgeler2 {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.buton  {
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin: 40px;
+    padding: 70px;
+    box-shadow: 0 5px 23px rgba(1 1 1 / 25%);
+    padding: 25px;
+    transition: 0.6s ease;
+    text-decoration: none;
+    width: 250px;
+}
+.buton:hover{
+    transform: scale(1.1);
+    box-shadow: 0 5px 23px rgba(1 1 1 / 50%);
+}
+.buton .simge2{
+    padding: 12px;
+    color: darkcyan;
+    font-size: 2.4em;
+}
+.buton p {
+    color: black;
+}
+.hesap .h3 {
+    font-size: 1.3em;
+    color: black;
+    padding: 12px;
+}
+.telif {
+    font-weight: 400;
+    font-size: 1.1em;
+    color: aliceblue;
+}
+.bod {
+    background-color: rgb(33, 56, 77);
+    justify-content: space-between;
+    transition: 0.5s;
+    display: flex;
+    padding: 15px 65px;
+}
+.bod span {
+    color:lightskyblue;
+}
+.simgeler .a2 {
+    font-size: 1.3em;
+    /* transition: 0.8s; */
+}
+.a2:hover {
+    transform: scale(1.1);
+}
+a {
+
+    text-decoration: none;
+
+}
